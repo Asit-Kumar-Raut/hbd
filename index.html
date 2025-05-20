@@ -246,19 +246,21 @@
 
     <script>
         // ====== CONFIGURATION ======
-        const birthdayBoyName = "gita"; // Replace with name
+        const birthdayBoyName = "PRIYA"; // Replace with name
         const photoUrls = [
-            "Screenshot 2025-05-06 095447.png",  // Replace with photo URLs
-            "Screenshot 2025-05-06 095506.png",
-            "Screenshot 2025-05-06 095528.png"
+            "a.jpg",  // Replace with photo URLs
+            "a1.jpg",
+            "a2.jpg",
+             "a3.jpg",  // Replace with photo URLs
+            "a4.jpg"
         ];
         const birthdaySongUrl = "hbd.mp3"; // Replace with birthday song
         const messages = [
-            "HAPPY BIRTHDATY! 🥳",
+            "You're the most amazing person! 🥳",
             "This day is all about YOU! 🎂",
             "Wishing you endless happiness! 🌟",
-            "Age is just a number... enjoy youyr day! 😎",
-           
+            "Age is just a number... but you're awesome! 😎",
+            "The world is better with you in it! 💖"
         ];
 
         // ====== WEBSITE FUNCTIONALITY ======
@@ -370,7 +372,7 @@
             audio.src = birthdaySongUrl;
             audio.play().catch(e => console.log("Auto-play blocked"));
             
-            this.innerHTML = "🎉 WOW! ENJOY YOUR DAY! 🎉";
+            this.innerHTML = "🎉 WOW! YOU'RE AMAZING! 🎉";
             this.style.background = "linear-gradient(45deg, #ffcc00, #ff00cc)";
             
             createConfetti();
